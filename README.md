@@ -14,7 +14,7 @@ Paradis tejidos es un emprendimiento real que vende prendas o muñecos (amigurum
 
   
 
-![Logo Paradis Tejidos](https://mega.nz/file/OFFylbiB#tT-gOeI3zQHpc700SvzqJVYdSyitCNkwgzDlq5YzjsM)
+![Logo Paradis Tejidos](./assets/logo%20paradis.jpg)
 
   
 
