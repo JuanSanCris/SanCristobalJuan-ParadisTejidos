@@ -1,0 +1,43 @@
+.main-banner {
+    height: 20vw;
+    width: 100%;
+    background-image: url(http://via.placeholder.com/1920x1080);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-banner img{
+    /* Esta imagen por ahora no se muestra */
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.product-card{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 205px;
+    max-height: 333px;
+    aspect-ratio: 205 / 333;
+    font-family: 'Righteous', cursive;
+    font-size: larger;
+    border-color: black;
+    border-style: inset;
+    border-radius: 20px;
+    margin: 0 2% 0 2%;
+}
+
+.product-image{
+    max-width: 90%;
+    height: auto;
+}
+
+.product-card h2{
+    font-size: 1.5rem;
+    margin: 2% 0 2% 0;
+}

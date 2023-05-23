@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@400;500&family=Righteous&display=swap');
+
+
+.root, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    background-color: #FEFFC6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    max-height: 100px;
+}
+
+.left-menu{
+    display: flex;
+    margin-left: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    width: 40%;
+}
+
+.logo-interior{
+    max-width: 60%;
+    height: auto;
+}
+
+.navbar-links{
+    display: none;
+}
+
+.cart-logo{
+    margin-right: 3%;
+}
+
+.footer-main{
+    background-color: #DAC6FF;
+    height: 163px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Literata', serif;
+}
+
+.footer-products li{
+    font-size: 0.87rem;
+}
+
+.footer-payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-payment img{
+    margin-top: 4%;
+    height: 34px;
+    width: 55px;
+}
+
+.footer.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.socials-logos{
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-page{
+    background-color: rgb(223, 223, 223);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0 20px 0;
+}
+
+.product-buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.generic-button{
+    background-color: #FEFFC6;
+    width: 33%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.generic-button img{
+    margin: auto;
+}
+
+@media (min-width: 600px){
+    .menu-charm{
+        display: none;
+    }
+
+    .navbar-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        gap: 10px;
+        width: fit-content;
+    }
+}
