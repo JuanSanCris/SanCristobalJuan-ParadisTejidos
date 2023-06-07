@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
 
 li {
     list-style: none;
@@ -15,10 +18,10 @@ li {
 .navbar {
     background-color: #FEFFC6;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 10vw;
-    max-height: 100px;
+    max-height: 90px;
 }
 
 .left-menu{
@@ -110,8 +113,8 @@ main {
 
 .generic-button{
     background-color: #FEFFC6;
-    width: 33%;
-    height: 100%;
+    width: 60px;
+    height: 35px;
     border-radius: 10px;
 }
 
@@ -124,14 +127,13 @@ main {
         display: none;
     }
 
-    
-
     .navbar-links{
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         height: 3rem;
         gap: 10px;
         width: fit-content;
+        margin-right: 10px;
     }
 }

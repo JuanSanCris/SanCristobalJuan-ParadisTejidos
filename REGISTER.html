@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradis - Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="REGISTER.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="left-menu">
+            <img src="./assets/charm_menu-hamburger.svg" alt="Menu" class="menu-charm">
+            <a href="./HOME.html">
+                <div class="logo">
+                    <img src="./assets/Paradis.png" alt="Logo Paradis" class="logo-interior">
+                </div>
+            </a> 
+        </div>
+        <ul class="navbar-links">
+            <a href="./HOME.html"><li>Inicio</li></a>
+            <li>Productos</li>
+            <li>Contacto</li>
+        </ul>
+        <img src="./assets/akar-icons_cart.svg" alt="Cart image" class="cart-logo">
+
+    </header>
+    <main>
+        <section class="main-container">
+            <article class="login-card">
+                <h2>Registrarse</h2>
+                <form method="post" class="form">
+                    
+                    <label for="user-name">
+                        Nombre
+                    </label>
+                    <input id="user-name" class="form-content" placeholder="Nombre" type="text" name="email" autocomplete="on" required />
+
+                    <label for="user-surname">
+                        Apellido
+                    </label>
+                    <input id="user-surname" class="form-content" placeholder="Apellido" type="text" name="email" autocomplete="on" required />
+
+                    <label for="user-email">
+                        Email
+                    </label>
+                    <input id="user-email" class="form-content" placeholder="email" type="email" name="email" autocomplete="on" required />
+
+                    <label for="user-birthday">
+                        Fecha de nacimiento
+                    </label>
+                    <input id="user-birthday" class="form-content" placeholder="Fecha de nacimiento" type="date" name="email" autocomplete="on" required />
+
+                    <label for="user-password">
+                        Contraseña
+                    </label>
+                    <input id="user-password" class="form-content" placeholder="contraseña" type="password" name="password" required />
+                    
+                    <label for="user-password-verification">
+                        Contraseña
+                    </label>
+                    <input id="user-password-verification" class="form-content" placeholder="contraseña" type="password" name="password" required />
+                    
+                    <input id="submit-btn" type="submit" name="submit" value="REGISTRARSE" />
+                  </form>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer-main">
+        <section class="footer-products">
+            <h3>Productos</h3>
+            <ul>
+                <li>Prendas</li>
+                <li>Accesorios</li>
+                <li>Amigurumis</li>
+            </ul>
+        </section>
+        <section class="footer-payment">
+            <h3>Medios de pago</h3>
+            <img src="./assets/mercadopago.png" alt="Mercado Pago" class="mp-logo">
+        </section>
+        <section class="footer-socials">
+            <h3>Redes Sociales</h3>
+            <div class="socials-logos">
+                <img src="./assets/ant-design_instagram-filled.png" alt="Instagram-Logo">
+                <img src="./assets/akar-icons_facebook-fill.png" alt="Facebook-logo">
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>
